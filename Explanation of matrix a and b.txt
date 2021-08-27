@@ -1,1 +1,0 @@
-Matrix a and b is the IDL program output of analyzed postion and intensity information of one quantum dot at two focus plabe
