@@ -1,0 +1,15 @@
+1. Matrix a is the IDL output of one quantum dot at the upper focus plane 1
+2. Matrix b is the IDL output of the same quantum dot at the lower focus plane 2
+3. Sample excel file of IDL output is provided under this link named as"Sample excel file of Matrix a" and "Sample excel file of Matrix b"
+4. Excel file contains 6 columns, row number is frame number which is related to time (s), time=row number * 0.1 (s)
+5. Column definiton of 6 columns:
+     column 1: peak intensity
+     column 2: x position standard deviation from gaussian fitting
+     column 3: y position standard deviation from gaussian fitting
+     column 4: x position from 2D gaussian fitting of single quantum dot intensity
+     column 5: y position from 2D gaussian fitting of single quantum dot intensity
+     column 6: One dimensional projection to the moving path from the first position to the last position (this column is not needed for calculation of x,y,z position)
+
+6. Sample Matrix a and b is from data on 2019/07/03, which can be tested for MATLAB function code "Quantum_Dot_3D_analysis_20190702"
+7. t in the function is the frame number of fusion time point
+7. Fusion time of this sample excel file is 70.9 s which means the frame number (t) is 709 
