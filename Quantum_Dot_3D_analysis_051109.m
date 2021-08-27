@@ -1,5 +1,5 @@
 function [P]=Quantum_Dot_3D_analysis_051109(a,b,t)
-%a is the output of up focus plane from IDL, b is the output of bottom focus plane from IDL, t is the release time point recognized by eye check of metamorph output
+%a is the output of up focus plane from IDL, b is the output of bottom focus plane from IDL, t is the frame number of release time point recognized by eye check of metamorph output
 %P is (x,y,z) position listed over time, R contains net displacement, velocity and release time point.
 %Q is the matrix of each step travallength and speed
 %S is the metrix of instantaneous speed
@@ -25,7 +25,7 @@ while j<=m
     else
         j=j+1;
     end
-end %reomve bad point with poor ¦Ò
+end %reomve bad point with poor Â¦Ã’
 F(:,9)=[];F(:,8)=[];F(:,4)=[];F(:,3)=[];
 [m,~]=size(F);
 P=zeros(m,5);l=1;
